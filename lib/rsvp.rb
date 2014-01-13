@@ -23,7 +23,7 @@ module Rsvp
       mstr = method.to_s
       if mstr.start_with?("from_")
         # Require the appropriate parser
-        file = "rsvp/parsers/#{mstr[5..-1]}"
+        file = "lib/rsvp/parsers/#{mstr[5..-1]}"
         require file
         # Construct a new Schema object using the parser
         cls = file.camelize.constantize

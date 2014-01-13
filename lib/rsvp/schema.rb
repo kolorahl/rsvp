@@ -1,5 +1,5 @@
 # Load all custom rules
-require 'rsvp/rules/all'
+require 'lib/rsvp/rules/all'
 
 module Rsvp
   # Represents a schema object used to validate other Ruby objects.
