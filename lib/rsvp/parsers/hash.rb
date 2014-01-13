@@ -4,7 +4,7 @@ module Rsvp::Parsers
     #
     # @param src (Hash) the Ruby Hash containing the schema definition.
     def initialize(src)
-      unless src.is_a?(Hash)
+      unless src.is_a?(::Hash)
         throw "Source object must be a Hash; received #{src.class}"
       end
       @src = src
