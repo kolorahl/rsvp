@@ -9,4 +9,6 @@ Gem::Specification.new do |spec|
   spec.files       = []
   spec.homepage    = 'http://kolorahl.com/rsvp'
   spec.license     = 'MIT'
+
+  spec.add_development_dependency 'rspec'
 end

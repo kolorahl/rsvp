@@ -11,6 +11,11 @@ module Rsvp::Parsers
     end
 
     def generate
+      nil
+    end
+
+    def errors
+      []
     end
   end
 end
